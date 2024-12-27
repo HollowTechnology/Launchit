@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Firestick Launcher</title>
+    <title>Launchit</title>
     <style>
         body {
             background-color: #121212;
@@ -31,15 +31,17 @@
     </style>
 </head>
 <body>
-    <h1>My Firestick Launcher</h1>
+    <h1>Launchit</h1>
+	<h2>Video:</h2>
     <div id="apps">
         <!-- Apps will be dynamically loaded -->
     </div>
     <script>
         const apps = [
-            { name: "YouTube", icon: "Resources/YTLogo.png", url: "https://www.youtube.com/tv" },
-            { name: "Netflix", icon: "Resources/NETFLIXLogo.png", url: "https://www.netflix.com" },
-            { name: "Hulu", icon: "Resources/HULULogo.png", url: "https://www.hulu.com" }
+            { name: "YouTube", icon: "Resources/YTLogo.png", url: "intent://youtube.com#Intent;package=com.google.android.youtube.tv;end" },
+            { name: "Netflix", icon: "Resources/NETFLIXLogo.png", url: "intent://www.netflix.com#Intent;package=com.netflix.ninja;end" },
+            { name: "Hulu", icon: "Resources/HULULogo.png", url: "intent://#Intent;package=com.hulu.plus;end" }
+			{ name: "Amazon Prime", icon: "Resources/HULULogo.png", url: "intent://primevideo.com#Intent;package=com.amazon.avod.thirdpartyclient;end" }
         ];
 
         const appContainer = document.getElementById('apps');
