@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Firestick Launcher</title>
+    <style>
+        body {
+            background-color: #121212;
+            color: white;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+        }
+        .app {
+            display: inline-block;
+            margin: 20px;
+            text-align: center;
+            cursor: pointer;
+        }
+        .app img {
+            width: 100px;
+            height: 100px;
+            border-radius: 12px;
+        }
+        .app span {
+            display: block;
+            margin-top: 8px;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <h1>My Firestick Launcher</h1>
+    <div id="apps">
+        <!-- Apps will be dynamically loaded -->
+    </div>
+    <script>
+        const apps = [
+            { name: "YouTube", icon: "https://www.example.com/youtube-icon.png", url: "https://www.youtube.com/tv" },
+            { name: "Netflix", icon: "https://www.example.com/netflix-icon.png", url: "https://www.netflix.com" },
+            { name: "Hulu", icon: "https://www.example.com/hulu-icon.png", url: "https://www.hulu.com" }
+        ];
+
+        const appContainer = document.getElementById('apps');
+        apps.forEach(app => {
+            const appElement = document.createElement('div');
+            appElement.className = 'app';
+            appElement.innerHTML = `
+                <img src="${app.icon}" alt="${app.name}" onclick="window.location.href='${app.url}'">
+                <span>${app.name}</span>
+            `;
+            appContainer.appendChild(appElement);
+        });
+    </script>
+</body>
+</html>
