@@ -11,31 +11,40 @@
             font-family: Arial, sans-serif;
             text-align: center;
             margin: 0;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
         }
         .button-container {
             display: flex;
             flex-direction: column;
             align-items: center;
-            gap: 30px;
-            margin-top: 50px;
+            justify-content: center;
+            gap: 10px;
+            flex-grow: 1;
+            width: 100%;
+            padding: 10px;
+            box-sizing: border-box;
         }
         .app-button {
-            width: 90%;
-            max-width: 500px;
+            width: 100%;
+            max-width: 100%;
             padding: 20px;
-            background-color: rgba(30, 136, 229, 0.8);
+            background-color: transparent;
             color: white;
-            border: none;
-            border-radius: 12px;
+            border: 2px solid white;
+            border-radius: 0;
             font-size: 20px;
             font-weight: bold;
             cursor: pointer;
             text-align: center;
-            transition: background-color 0.3s, transform 0.2s;
+            transition: background-color 0.3s, transform 0.2s, border-color 0.3s;
             display: flex;
             align-items: center;
             justify-content: center;
             gap: 15px;
+            height: 20%;
+            box-sizing: border-box;
         }
         .app-button img {
             width: 50px;
@@ -43,8 +52,9 @@
             border-radius: 8px;
         }
         .app-button:hover {
-            background-color: rgba(21, 101, 192, 0.9);
-            transform: scale(1.05);
+            background-color: rgba(255, 255, 255, 0.1);
+            border-color: rgba(255, 255, 255, 0.8);
+            transform: scale(1.02);
         }
     </style>
 </head>
