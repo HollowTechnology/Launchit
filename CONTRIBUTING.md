@@ -11,3 +11,4 @@ For example, if someone makes a mistake, kindly tell them about it. Don't harshl
 - A logo
 - Launchit Pro
 - Better UI
+- A description for Launchit in the README.md
