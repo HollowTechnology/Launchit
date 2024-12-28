@@ -12,46 +12,66 @@
             text-align: center;
             margin: 0;
         }
-        .app {
-            display: inline-block;
-            margin: 20px;
-            text-align: center;
-            cursor: pointer;
+        .button-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 30px;
+            margin-top: 50px;
         }
-        .app img {
-            width: 100px;
-            height: 100px;
+        .app-button {
+            width: 90%;
+            max-width: 500px;
+            padding: 20px;
+            background-color: rgba(30, 136, 229, 0.8);
+            color: white;
+            border: none;
             border-radius: 12px;
+            font-size: 20px;
+            font-weight: bold;
+            cursor: pointer;
+            text-align: center;
+            transition: background-color 0.3s, transform 0.2s;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 15px;
         }
-        .app span {
-            display: block;
-            margin-top: 8px;
-            font-size: 14px;
+        .app-button img {
+            width: 50px;
+            height: 50px;
+            border-radius: 8px;
+        }
+        .app-button:hover {
+            background-color: rgba(21, 101, 192, 0.9);
+            transform: scale(1.05);
         }
     </style>
 </head>
 <body>
     <h1>Launchit</h1>
-    <div id="apps">
-        <!-- Apps will be dynamically loaded -->
+    <div class="button-container" id="buttons">
+        <!-- Buttons will be dynamically loaded -->
     </div>
     <script>
         const apps = [
-            { name: "YouTube", icon: "Resources/YTLogo.png", url: "https://youtube.com/" },
-            { name: "Netflix", icon: "Resources/NETFLIXLogo.png", url: "https://netflix.com/" },
-            { name: "Hulu", icon: "Resources/HULULogo.png", url: "https://hulu.com/" },
-            { name: "Prime Video", icon: "Resources/PRIMELogo.png", url: "https://primevideo.com/" }
+            { name: "Amazon Luna", icon: "Resources/Gamers/AmazonLuna.png", url: "https://luna.amazon.ca/" },
+            { name: "Boosteroid", icon: "Resources/Gamers/Boosteroid.png", url: "https://boosteroid.com/" },
+            { name: "GeForce NOW", icon: "Resources/Gamers/GEForceNOW.png", url: "https://play.geforcenow.com/" },
+            { name: "Shadow PC", icon: "Resources/Gamers/ShadowPC.png", url: "https://shadow.tech/" },
+            { name: "Xbox Cloud", icon: "Resources/Gamers/XCloud.png", url: "https://www.xbox.com/play" }
         ];
 
-        const appContainer = document.getElementById('apps');
+        const buttonContainer = document.getElementById('buttons');
         apps.forEach(app => {
-            const appElement = document.createElement('div');
-            appElement.className = 'app';
-            appElement.innerHTML = `
-                <img src="${app.icon}" alt="${app.name}" onclick="window.location.href='${app.url}'">
+            const buttonElement = document.createElement('button');
+            buttonElement.className = 'app-button';
+            buttonElement.innerHTML = `
+                <img src="${app.icon}" alt="${app.name}">
                 <span>${app.name}</span>
             `;
-            appContainer.appendChild(appElement);
+            buttonElement.onclick = () => window.location.href = app.url;
+            buttonContainer.appendChild(buttonElement);
         });
     </script>
 </body>
