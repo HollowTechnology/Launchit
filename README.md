@@ -1,5 +1,6 @@
 # Launchit 🚀
 The ultimate launcher for TVs and (maybe) tablets.<br>
+Like this repo? Give it a ⭐!
 
 [Launchit](https://hollowtechnology.github.io/Launchit/launchit.html) - [Launchit for Cloud Gamers](https://hollowtechnology.github.io/Launchit/gamers.html) - [Launchit Pro](https://hollowtechnology.github.io/Launchit/pro.html)<br>
 ---
