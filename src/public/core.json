@@ -1,0 +1,6 @@
+[
+  { "name": "YouTube", "icon": "assets/Core/YTLogo.png", "url": "https://youtube.com/" },
+  { "name": "Netflix", "icon": "assets/Core/NETFLIXLogo.png", "url": "https://netflix.com/" },
+  { "name": "Hulu", "icon": "assets/Core/HULULogo.png", "url": "https://hulu.com/" },
+  { "name": "Prime Video", "icon": "assets/Core/PRIMELogo.png", "url": "https://primevideo.com/" }
+]
