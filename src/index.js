@@ -1,5 +1,5 @@
-// import u from 'https://cdn.jsdelivr.net/npm/umbrellajs@3.3.3/+esm'
-import u from '/umbrella.js'
+import u from 'https://cdn.jsdelivr.net/npm/umbrellajs@3.3.3/+esm'
+// import u from '/umbrella.js'
 
 u('body').addClass("select-none bg-zinc-950 text-white tracking-wide font-mono text-center m-0 flex flex-col items-center justify-center h-screen")
 u('h1').addClass("text-3xl mb-8 font-extrabold")
