@@ -1,8 +1,0 @@
-[
-  { "name": "Amazon Luna", "icon": "assets/Gamers/AmazonLuna.png", "url": "https://luna.amazon.ca/" },
-  { "name": "Boosteroid", "icon": "assets/Gamers/Boosteroid.png", "url": "https://boosteroid.com/" },
-  { "name": "GeForce NOW", "icon": "assets/Gamers/GEForceNOW.png", "url": "https://play.geforcenow.com/" },
-  { "name": "Shadow PC", "icon": "assets/Gamers/ShadowPC.png", "url": "https://shadow.tech/" },
-  { "name": "Xbox Cloud", "icon": "assets/Gamers/XCloud.png", "url": "https://www.xbox.com/play" }
-]
-
