@@ -13,3 +13,8 @@ Features 🌟
 - Customizable to your liking.
 
 Check out [CONTRIBUTING.md](https://github.com/HollowTechnology/Launchit/blob/main/CONTRIBUTING.md) if you want to contribute to Launchit
+
+# Thanks to the following:
+- nehasaleemdesai: Helped Code Launchit
+- wuX4an: Reimplemented Launchit from scratch.
+- My TV's: I can test Launchit on them 🤣
