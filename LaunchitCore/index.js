@@ -17,7 +17,7 @@ apps.forEach(app => {
   </div>
 `)})
 
-u('body').addClass("bg-zinc-950 text-white tracking-wide font-mono text-center m-0 flex flex-col items-center justify-center h-screen")
+u('body').addClass("select-none bg-zinc-950 text-white tracking-wide font-mono text-center m-0 flex flex-col items-center justify-center h-screen")
 u('h1').addClass("text-3xl mb-8 font-bold")
 u('#app').addClass("inline-block m-4 text-center cursor-pointer hover:scale-125 hover:translate-x-2 transition duration-200")
 u('#app img').addClass("w-28 h-28 rounded-3xl")
