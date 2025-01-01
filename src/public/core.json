@@ -2,9 +2,9 @@
   { "name": "YouTube", "icon": "assets/Core/YTLogo.png", "url": "https://youtube.com/" },
   { "name": "Netflix", "icon": "assets/Core/NETFLIXLogo.png", "url": "https://netflix.com/" },
   { "name": "Hulu", "icon": "assets/Core/HULULogo.png", "url": "https://hulu.com/" },
-  { "name": "Prime Video", "icon": "assets/Core/PRIMELogo.png", "url": "https://primevideo.com/" }
+  { "name": "Prime Video", "icon": "assets/Core/PRIMELogo.png", "url": "https://primevideo.com/" },
   { "name": "Tubi", "icon": "assets/Core/TUBILogo.png", "url": "https://tubitv.com" },
   { "name": "Pluto TV", "icon": "assets/Core/PLUTOTVLogo.png", "url": "https://pluto.tv/" },
   { "name": "Crunchyroll", "icon": "assets/Core/CRUNCHYROLLLogo.png", "url": "https://crunchyroll.com" },
-  { "name": "Disney+", "icon": "assets/Core/DISNEYLogo.png", "url": "https://disneyplus.com" },
+  { "name": "Disney+", "icon": "assets/Core/DISNEYLogo.png", "url": "https://disneyplus.com" }
 ]
