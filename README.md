@@ -2,7 +2,7 @@
 The ultimate launcher for TVs and (maybe) tablets.<br>
 Like this repo? Give it a ⭐!
 
-[Launchit](https://hollowtechnology.github.io/Launchit/LaunchitCore/) - [Launchit for Cloud Gamers](https://hollowtechnology.github.io/Launchit/LaunchitGamers/) - [Launchit Pro](https://hollowtechnology.github.io/Launchit/pro.html)<br>
+[Launchit](https://hollowtechnology.github.io/Launchit/src/index.html)
 ---
 Launchit is a launcher for all your apps. Whether it's entertainment or gaming, Launchit is there.<br>
 
