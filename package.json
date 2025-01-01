@@ -1,0 +1,21 @@
+{
+  "name": "launchit",
+  "version": "1.0.0",
+  "description": "The ultimate launcher for TVs and (maybe) tablets.",
+  "scripts": {
+    "dev": "http-server ./src/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HollowTechnology/Launchit.git"
+  },
+  "author": "HollowTechnology",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/HollowTechnology/Launchit/issues"
+  },
+  "homepage": "https://github.com/HollowTechnology/Launchit#readme",
+  "dependencies": {
+    "http-server": "^14.1.1"
+  }
+}
